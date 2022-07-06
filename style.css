@@ -1,0 +1,1360 @@
+body {
+	margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #eeeeee;
+    
+       max-width: 100%;
+       height: 100%;
+   
+}
+
+.conteudo{
+   width: 100%;
+}
+.tho{
+    width: 160px;
+    margin-top: 20px;
+   
+    background-color: #ffff;
+    padding: 0 30px;  
+}
+.tho label{
+    font-size: 12px;
+}
+
+@font-face {
+    font-family:'Hotel' ;
+    src: url(PIZZARIA.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+.logo{
+  margin-top: -100px;
+  padding: 10px;
+ 
+}
+
+
+
+
+
+
+   /*  MENU CABEÇARIO  INICIO DESKTOP*/
+    
+    #menu{
+        display: flex;
+        position: relative;
+        background-color: black;
+        height: 22px;
+        margin-top: 0;
+        padding-top: 18px;
+    }
+ 
+
+
+
+
+#menu li a{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0;
+    color: white;
+    
+}
+li {
+    list-style-type: none;
+  }
+#menu li a:hover{
+    font-size: 20px;
+    background-color: white;
+    color: rgba(83,82,82,0.5);
+}
+/* FIM DO MENU DESKTOP */
+
+
+/* INICIO DO ISLADE */
+.gallery{
+    margin-top: 20px;
+    position: relative;
+    left: -20px;
+    height: 100%;
+    width: 100%;
+  
+  
+ }
+/* FIM DO ISLADE */
+
+
+/* MENU JAVASCRIPT LADO DIREITO */
+nav img {
+    margin: 15px 0;
+    padding-left: 90px;
+   
+}
+
+nav, nav ul {
+    display: flex;
+    flex-direction: row;
+    margin-right: 40px;
+}
+
+nav a {
+    font-family:'Pizza';
+    color: #060706;
+    font-weight: bold;
+    
+    margin-top: 20px;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: white ; 
+    
+}
+
+ul a{
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+a li {
+    padding: 0 20px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: rgb(47, 47, 47);
+    font-size: 36px;
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+/* MENU JAVASCRIPT LADO DIREITO FIM  */
+
+        @media (max-width: 1220px) {
+            
+            /* BANNER IMG FOTO EM BAIXO DO ISLADE */
+            #banner img{
+
+
+                height: 210px;
+                padding-top: 25px;
+                position: relative;
+                border-radius: 15px;
+               
+               
+            }
+
+        }
+
+       /*  FIM DA FOTO  */
+    /* MENU JAVASCRIPT ESCONDIDO LADO DIREITO */
+        nav, nav ul {
+            flex-direction: column;
+        }
+    
+        nav ul {
+            text-align: center;
+            margin: 0;
+            height: 0;
+        }
+    
+        nav {
+            padding: 0;
+            align-items: flex-start;
+        }
+    
+        nav a:hover{
+            height: 80px;
+            background: #d8d8d8;
+        }
+    
+        nav img {
+            margin: 0;
+            padding: 0;
+        }
+    
+        button {
+            display: flex;
+        }
+        
+        nav ul {
+            width: 95%;
+        }
+    
+        ul.responsivo {
+            height: 360px;
+        }
+      /*  MENU JAVASCRIPT LADO DIREITO DESKTOP ESCONDIDO */
+     
+
+
+
+
+
+
+
+      
+        @media (max-width: 1180px) {
+            
+
+/*INICIO Menu JAVASCRIPT */
+
+            nav, nav ul {
+                flex-direction: column;
+            }
+        
+            nav ul {
+                text-align: center;
+                margin: 0;
+                height: 0;
+            }
+        
+            nav {
+                padding: 0;
+                align-items: flex-start;
+            }
+        
+            nav a:hover{
+                height: 80px;
+                background: #d8d8d8;
+            }
+        
+            nav img {
+                margin: 0;
+                padding: 0;
+            }
+        
+            button {
+                display: flex;
+            }
+            
+            nav ul {
+                width: 95%;
+            }
+        
+            ul.responsivo {
+                height: 360px;
+            }
+        }
+        /*Fim Menu*/
+        
+        
+        
+        
+        
+        
+        /*Banner "HOTEL ♥"*/
+                #banner img{
+                    width: 50%;
+                    height: 210px;
+                    padding-top: 25px;
+                    margin-top: -20px;
+                    border-radius: 15px;
+                   
+                }
+        
+
+
+
+
+
+
+
+
+                
+
+        @media (max-width: 420px) {
+            #banner img{
+                width: 30%;
+                height: 120px;
+                padding-top: 65px;
+               
+                
+            }
+
+        }
+/*Banner "IMAGEM ABAIXO MENU "*/
+
+
+
+
+
+/*Background + Conteudo*/
+main{
+    overflow: auto;
+    min-width: 500px;
+    height: 100%;
+    background-image: url(img/bg_vdexplica.jpg); /* img fundo */
+    background-attachment: fixed;
+    background-size: 320px;
+}
+
+.conteudo{
+    margin: auto;
+    margin-top: 55px;
+    text-align: center;
+    width: 95%;
+    background-color: #eeeeee;
+    border-radius: 25px;
+    border: 3px solid #444444;
+}
+
+.conteudo h1{
+border-style: dotted;
+}
+.conteudo h1{
+
+  text-shadow: 1px 8px 8px #3B3B48;
+   
+}
+.conteudo h1{
+    font-size: 50px;
+    /* background-color: #f0cc69; */
+    color:#3B3B48;
+    border-style: solid;
+    border-radius: 15px;
+    
+    box-shadow: 2px 1px 22px  #696969;
+    text-align: center;
+    
+}
+
+@media (max-width: 420px) {
+
+    #banner img{
+        width: 30%;
+        height: 120px;
+        padding-top: 25px;
+        
+    }
+    /* .conteudo{
+        width: 40%;
+    } */
+    .conteudo h1{
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+nav img {
+    margin: 15px 0;
+    padding-left: 90px;
+}
+
+/*QUARTOS DO HOTEL e outros*/
+        .cardapio{
+          
+            min-width: 400px; /* mudei aqui  Cardapio*/
+            margin: 0 auto;
+            padding: 10px 0;
+            
+        }
+   
+        .cardapio li {
+            display: inline-block;
+            text-align: center;
+            width: 300px;
+            vertical-align: top;
+           /*  margin: 10px 10px;*/
+            padding: 30px 20px;  
+            box-sizing: border-box;
+            border: 3px solid #CCC;
+             border-radius: 10%; 
+        }
+    .cardapio li {
+        color: #3B3B48;
+    }
+        .cardapio li:hover { 
+            border-color: #3B3B48;
+        }
+
+        .cardapio li:active {
+            border-color: #3B3B48;
+        }
+
+        .cardapio h2{
+            color: #3B3B48;
+            font-size:30px;
+            font-weight: bold;
+        }
+
+        .produtos-descricao{
+            font-size: 18px;
+        }
+
+        .produtos-preco {
+            font-size: 22px;
+            font-weight: bold;
+            margin: 0px 0 0;
+            margin-top: 10px;
+           
+        }
+
+        @media (max-width: 1220px) {
+
+            #menu{
+                display: flex;
+                position: relative;
+                background-color: black;
+                height: 25px;
+                margin-top: 0;
+
+
+                
+             
+            
+            }
+            
+            #menu li a{
+                font-size: 15px;
+                font-weight: bold;
+                padding: 15px;
+                
+            }
+            li {
+                list-style-type: none;
+              }
+            #menu li a:hover{
+                font-size: 30px;
+                background-color: white;
+                color: rgba(83,82,82,0.5);
+            }
+            
+            .cardapio h2{
+                font-size: 25px;
+            }
+
+            .cardapio img{
+                margin: 17px;
+                width: 350px;
+                height: 200px;
+                
+            }
+
+            .cardapio li{
+                width: 45%;
+            }
+        
+            .produtos-preco {
+                font-size: 20px;
+            }
+        }
+
+        @media (max-width: 1040px) {
+           
+             /*  .gallery{
+                 margin-top: -10px;
+                 position: relative;
+                 left: 120px;
+               
+               
+              } */
+            #menu{
+                display: flex;
+                position: relative;
+                background-color: rgb(17, 16, 16);
+                height: 27px;
+                margin-top: 0px;
+             
+            
+            }
+            #menu li a{
+                font-size: 15px;
+                font-weight: bold;
+               padding: 15px;
+                color: white;
+                
+            }
+            li {
+                list-style-type: none;
+              }
+            #menu li a:hover{
+                font-size: 25px;
+                background-color: white;
+                color: rgba(83,82,82,0.5);
+            }
+            
+         
+            .cardapio{
+                min-width: 500px;
+                padding: 20px 0;
+            }
+
+            .cardapio img{
+                width: 250px;
+                height: 200px;
+            }
+
+            .cardapio li{
+                width: 45%;
+                height: 400px;
+            }
+
+            .produtos-preco {
+                font-size: 20px;
+            }
+        }
+
+       
+
+
+
+
+        
+
+       
+
+
+        @media (max-width: 1220px){
+            .localizacao{
+                display: flex;
+                flex-direction: column;
+                margin: 20px ;
+            }
+
+            .mapa-conteudo {
+                width: 100%; 
+                border: 1px solid #59e;
+            } 
+
+            .endereco-conteudo ul li{
+                font-size: 15px;
+            }
+        }
+        
+        
+/* Localização e Endereço */
+
+
+/* contato */
+        form {
+            margin: 50px 50px;
+            width: 100%;
+        }
+
+        form label{
+            display: block;
+            font-size: 20px;
+            margin: 0 0 10px;
+            width: 50%;
+            color: black;
+        }
+
+        fieldset{
+            color: black;
+            border: none;
+            font-size: 18px;
+            margin: 0px 0px 0px 0px;
+        }
+
+        .input-padrao {
+            display: block;
+            margin: 0 0 20px;
+            padding: 10px 25px; 
+            width: 50%;
+        }
+
+        .enviar {
+            width: 30%;
+            padding: 15px 0;
+            background: rgb(26, 173, 26);
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+
+        .enviar:hover {
+            background: darkgreen;
+            transform: scale(1.05);
+        }
+
+        .imgform{
+            margin: 100px -60px;
+        }
+
+
+        @media (max-width: 900px) {
+
+             .gallery{
+                margin-top: 10px;
+                position: relative;
+                left: -25px;
+              
+              
+             } 
+
+            /*  MENU  INICIO*/ 
+             #menu{
+                display: flex;
+                position: relative;
+                background-color: black;
+                height: 24px;
+                margin-top: 0;
+             
+                
+                
+             
+            
+            }
+            #menu li a{
+                font-size: 14px;
+                font-weight: bold;
+               padding: 15px;
+                color: white;
+                
+            }
+            li {
+                list-style-type: none;
+              }
+            #menu li a:hover{
+                font-size: 30px;
+                background-color: white;
+                color: rgba(83,82,82,0.5);
+            }
+            
+           
+             /*  MENU FIM */
+               
+            /*  MENU ESCUNDIDO JAVASCRIPT INICIO */
+            nav, nav ul {
+                flex-direction: column;
+            }
+        
+            nav ul {
+                text-align: center;
+                margin: 0;
+                height: 0;
+            }
+        
+            nav {
+                padding: 0;
+                align-items: flex-start;
+            }
+        
+            nav a:hover{
+                height: 80px;
+                background: #d8d8d8;
+            }
+        
+            nav img {
+                margin: 0;
+                padding: 0;
+            }
+        
+            button {
+                display: flex;
+            }
+            
+            nav ul {
+                width: 95%;
+            }
+        
+            ul.responsivo {
+                height: 360px;
+            }
+        
+
+            /* FIM MENU JAVASCRIPT LADO DIREITO  */
+
+           
+            .cardapio {
+                width: 500px;
+             
+              
+            }
+
+            .cardapio img {
+              width: 200px;
+                height: 220px;
+            }
+
+            .cardapio li {
+                width: 55%;
+                height: 415px;
+                  margin:auto;
+                position: relative;
+                text-align: center;
+                 margin: 10px;
+                /*  flex-direction: column; */
+               
+                 
+            } 
+
+            .conteudo{
+                margin: auto;
+                margin-top: 2px;
+                margin-left: 4px;
+                margin-right: 0px;
+                text-align: center;
+                width:85%;
+                background-color: #eeeeee;
+                border-radius: 25px;
+                border: 2px solid #444444;
+               
+            }
+            
+            .conteudo h1{
+                font-size: 30px;
+                color: #3B3B48;  
+                text-align: center;
+               width:100%;
+            }
+
+            .produtos-preco {
+                font-size: 20px;
+            }
+        }
+
+
+/* MENU JAVASCRIPT LADO DIREITO */
+nav img {
+    margin: 15px 0;
+    padding-left: 90px;
+   
+}
+
+nav, nav ul {
+    display: flex;
+    flex-direction: row;
+    margin-right: 40px;
+}
+
+nav a {
+    font-family:'Pizza';
+    color: #060706;
+    font-weight: bold;
+    
+    margin-top: 20px;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: white ; 
+    
+}
+
+ul a{
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+a li {
+    padding: 0 20px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: rgb(47, 47, 47);
+    font-size:25px;
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    display: none;
+}
+
+
+
+
+
+
+
+
+        @media (max-width: 520px) {
+          /*    INICIO MENU  */
+            #menu{
+                display: flex;
+                position: relative;
+                background-color: black;
+                height: 20px;
+                margin-top: 0px;
+             
+                
+                
+             
+            
+            }
+            #menu li a{
+                font-size: 10px;
+                font-weight: bold;
+                padding: 25px;
+                 color: white;
+                
+            }
+            li {
+                list-style-type: none;
+              }
+            #menu li a:hover{
+                font-size: 25px;
+                background-color: white;
+                color: rgba(83,82,82,0.5);
+            }
+            
+
+               /* FIM MENU  */
+
+
+               /* MENU JAVASCRIPT ESCUNDIDO */
+            nav, nav ul {
+                flex-direction: column;
+            }
+        
+            nav ul {
+                text-align: center;
+                margin: 0;
+                height: 0;
+            }
+        
+            nav {
+                padding: 0;
+                align-items: flex-start;
+            }
+        
+            nav a:hover{
+                height: 40px;
+                background: #d8d8d8;
+            }
+        
+            nav img {
+                margin: 0;
+                padding: 0;
+            }
+        
+            button {
+                display: flex;
+            }
+            
+            nav ul {
+                width: 95%;
+            }
+        
+            ul.responsivo {
+                height:360px;
+            }
+        
+            
+            /*  FIM DO MENU ESCONDIDO  menu javascript */
+            
+          
+            /* INICIO MENU JAVASCRIPT ESCONDIDO */
+         
+
+
+              
+
+            nav, nav ul {
+                display: flex;
+                flex-direction: row;
+                margin-right: 50px;
+            }
+            
+            nav a {
+                font-family:'Pizza';
+                color: #060706;
+                font-weight: bold;
+                margin-top: 20px;
+                font-size: 14px;
+                text-decoration: none;
+            }
+            
+            nav a:hover{
+                color: white ; 
+                
+            }
+            
+            ul a{
+                list-style: none;
+                text-decoration: none;
+                padding: 0;
+                overflow: hidden;
+            }
+            
+            a li {
+                padding: 0 20px;
+            }
+            
+
+
+
+
+
+
+            
+             /*  FIM DO MENU ESCONDIDO  menu javascript */
+
+
+
+
+            main{
+                overflow: auto;
+                min-width: 500px;
+                height: 100%;
+                background-image: url(img/explica11.jpg); /* img fundo */
+                background-attachment: fixed;
+                background-size: 320px;
+            }
+
+            nav {
+                background-color: #eeeeee;
+                padding: 0 ;
+                justify-content: space-between;
+               /*  align-items: center; */
+                position: relative;
+                width: 100%;
+                height: 100%;
+                top: 0;
+               
+            }
+          
+              /*    SLIDE   FOTOs*/
+              .gallery{
+                margin-top: 20px; /* MUDA DENTRO SLIDE PARA BAIXO DO MENU */
+                padding:0px;
+                position: relative;
+                left: 0px;
+                width: 93%;
+                height: 30%;
+              
+              
+             }
+                 /*    SLIDE   FOTOs*/
+
+
+              .logo{
+                visibility: hidden;
+               
+              } 
+          
+           nav img {
+               margin: 15px 0;
+               padding-left: 90px;
+           }
+
+
+           .main img{
+            
+                
+               width: 350px;
+                height:100%;
+          
+           }
+           .conteudo{
+            margin: auto;
+            margin-top: 2px;
+            margin-left: -20px;
+            margin-right: 4px;
+            text-align: center;
+            width: 100%;  /*   DENTRO DE MAIN MENU BORDA TAMANHO  */
+            background-color: #eeeeee;
+            border-radius: 25px;
+            border: 2px solid #444444;
+           
+        }
+            /* .conteudo{
+                width: 460px;
+            } */
+
+
+            
+           .cardapio {
+               width:400px;
+               padding: 10px 10px;
+               display: flex;
+               flex-direction: column;
+               
+              
+               
+           }
+
+           .cardapio img {
+               width: 380px;
+               height: 200px;
+           }
+         
+           .cardapio li {
+               width: 450px;
+               height: 350px;
+              padding: 10px 0px;
+               margin: 10px 0.1px; 
+               margin-top: 10px;
+               
+               margin:auto;
+               position: relative;
+               margin-left: 10px;
+               
+           }
+          .cardapio p {
+              font-size: 15px;
+          }
+           .cardapio h2 {
+               color: #e9ba2d;
+               font-size: 20px;
+              
+           } 
+           
+           
+
+         
+           .produtos-descricao {
+               font-size: 10px;
+           }
+
+           .produtos-preco {
+               font-size: 9px;
+           }
+       }
+/*Cardapio-pizza*/
+
+
+
+
+/* Localização e Endereço */
+
+.localizacao{
+    display: flex;
+    justify-content: space-around;
+}
+
+.mapa-conteudo {
+    width: 280px; 
+    height: 200px;
+}
+
+.endereco-conteudo{
+    border-radius: 7px 0 7px 0;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.endereco-conteudo ul li{
+    color: #2c1f23;
+    list-style-type:none ;
+    margin-top: 20px;
+    padding:20px ;
+    font-size: 15px;
+}
+
+
+            /* FOTO ABAIXO DO MENU */
+
+
+       #banner img{
+        width: 100%;
+        height: 160px;
+        margin-top: 10px;
+        border-radius: 15px;
+        position: relative;
+       
+    }
+           /*  FOTO ABAIXO DO MENU */
+
+
+        @media (max-width: 420px){
+
+            body {
+	margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #eeeeee;
+    
+       max-width: 100%;
+       height: 100%;
+   
+}
+
+/* MENU RESPONSIVO  */
+#menu{
+    display: flex;
+    
+    background-color: black;
+    height: 19px;
+    margin-top: 0;
+    padding-top: 2px;
+ 
+    
+    
+ 
+
+}
+#menu li a{
+    font-size: 9px;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+    
+}
+li {
+    list-style-type: none;
+  }
+#menu li a:hover{
+    font-size: 20px;
+    background-color: white;
+    color: rgba(83,82,82,0.5);
+}
+/* FIM DO MENU  */
+
+
+
+           /*  main{
+                overflow: auto;
+                min-width: 700px;
+                height: 100%;
+                background-image: url(img/explica11.jpg); /* img fundo background-attachment: fixed;
+                background-size: 320px;
+                
+            } */
+
+
+
+
+            /* .pagina{
+                width: 250;
+                height: 100%;
+            } 
+*/
+
+
+/* BANNER FOTO ABAIXO DO MENU  */
+            #banner img{
+                width: 100%;
+                height: 140px;
+                margin-top: -10px;
+                border-radius: 15px;
+                
+               
+            }
+/* FIM DA FOTO ABAIXO DO MENU */
+
+
+
+          /*   .conteudo{
+                width: 810px;
+            } */
+
+.cardapio {
+                width:600px;
+                padding: 20px 10px;
+                display: flex;
+                flex-direction: column;
+               
+                
+            }
+
+            .cardapio img {
+                width: 260px;
+                height: 200px;
+            }
+
+            .cardapio li {
+                width: 400px;
+                height: 320px;
+               padding: 10px 0px;
+                margin: 10px 0.6px; 
+                margin-top: 10px;
+                
+                margin:auto;
+                position: relative;
+                margin-left: 10px;
+                
+            }
+           .cardapio p {
+               font-size: 12px;
+           }
+            .cardapio h2 {
+                color: #e6b219;
+                font-size: 20px;
+               
+            } 
+            
+            
+
+
+
+
+
+            form {
+                width: 100%;
+            }
+
+            .enviar {
+                width: 60%;
+                font-size: 18px;
+                
+            }
+
+
+
+            .localizacao{
+                display: flex;
+                justify-content: space-around;
+            }
+     
+            .mapa-conteudo {
+                width: 280px; 
+                height: 200px;
+            }
+     
+            .endereco-conteudo{
+                border-radius: 7px 0 7px 0;
+                padding: 10px;
+                margin-top: 50px;
+            }
+     
+            .endereco-conteudo ul li{
+                color: #2c1f23;
+                list-style-type:none ;
+                margin-top: 20px;
+                padding:20px 0px;
+                font-size: 15px;
+            }
+     
+     
+
+
+
+
+            
+        }
+/* contato */
+
+/* NAV DENTRO DO MENU A DIREITA */
+
+
+            nav, nav ul {
+                flex-direction: column;
+            }
+        
+            nav ul {
+                text-align: center;
+                margin: 0;
+                height: 0;
+            }
+        
+            nav {
+                padding: 0;
+                align-items: flex-start;
+            }
+        
+            nav a:hover{
+                height: 40px;
+                background: #d8d8d8;
+            }
+        
+            nav img {
+                margin: 0;
+                padding: 0;
+            }
+        
+            button {
+                display: flex;
+            }
+            
+            nav ul {
+                width: 95%;
+            }
+        
+            ul.responsivo {
+                height: 210px;
+            }
+        
+            nav {
+                background-color: #eeeeee;
+                padding: 0 ;
+                justify-content: space-between;
+               /*  align-items: center; */
+                position: relative;
+                width: 100%;
+                height: 100%;
+                top: 0;
+               
+            }
+
+
+.whatsapp-link {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 10px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+
+.fa-whatsapp {
+    margin-top: 16px;
+}
+
+footer{
+
+    width:100%;
+    height: 240px;
+    text-align: center;
+    color: #ededed;
+    background-color: #444444;
+    flex-direction: column;
+}
+
+.copyright{
+   font-size: 11px;
+   padding-top:15px ;
+   grid-column: 1;
+}
+.contato ul{
+    border: solid 1px rgb(94, 93, 93);
+    background-color: rgb(110, 108, 108);
+    width: 280px;
+    height: 100px;
+    padding-top: 4px;
+     
+    position: relative;
+    left: 10px;
+    top: 5px;
+    grid-column: 1;
+}
+.contato>ul>li{
+    position: relative;
+    text-align: left;
+    padding-left: 6px;
+    font-size: 10px;
+    color: #CCC;
+}
