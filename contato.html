@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="utf-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" href="img/logo2.png" type="image/png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./gallery.css">
+  <link rel="stylesheet" href="./galleryu.theme.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+   
+  <link rel="stylesheet" href="./AUMENTAR IMG/estilo.css">
+ <title>Hotel NACIONAL</title>
+</head>
+<body>
+
+   <!-- <div class="pagina"> -->
+
+    <!--  Menu do JAVASCRIPT-->
+    <header>
+
+
+<!-- MENU JAVASCRIPT -->
+
+
+     
+
+
+
+
+
+        
+        
+          <div class="menu">
+       <ul id="menu">
+                   
+                    <li><a href="index.html">Ínicio</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="localizacao.html">Localização</a></li>
+
+                   
+                  </ul>    
+                </div>       
+                          
+                      
+      
+                   
+    </header>
+    <!--  Menu do site     -->
+
+
+
+    <!-- Banner "HOTEL" -->
+        <section>
+
+</section>
+            <div id="banner">
+                <img src="img/frentehotel111.png" alt="ba">
+            </div>
+    
+    <!--inicio do Formulario -->
+    <main>
+        <div class="conteudo">
+            <h1>RESERVE</h1>    
+
+            <form class="tho">
+                <div>
+                  <label for="cheking"> informe a data de Chegada:</label>
+                  <input type="date" id="cheking" name="cheking" min="2022-07-04" max="2022-12-31" required>
+                  <span class="validity"></span>
+                  <label for="cheking">informe a data de Saída:</label>
+                  <input type="date" id="saida" name="saida" min="2022-07-04" max="2022-12-31" required>
+                  <span class="sair"></span>
+                <input type="submit" >
+            
+                
+                </div>
+              </form>
+            <form>
+                <label for="nomesobrenome">Nome e Sobrenome</label>
+                <input type="text" id="nomesobrenome" class="input-padrao" required>
+    
+                <label for="email">Endereço</label>
+                <input type="text" id="email" class="input-padrao" required placeholder="AV: Monsenho Alderigi N°10 ">
+    
+                <label for="mensagem">Pedido</label>
+                <textarea id="mensagem" cols="68" rows="10" class="input-padrao" required></textarea>
+    
+                <label for="telefone">Observação</label>
+                <input type="tel" id="telefone" class="input-padrao" placeholder="ex:Quarto para crianças menor de 5 anos">
+                <label for="number">CPF</label>
+                <input type="tel" id="number" class="input-padrao" placeholder="000.000.000-00">
+                <fieldset>
+                    <p>Como prefere o pagamento ?</p>
+                    <label for="radio-email"><input type="radio" name="contato" value="email"
+                            id="radio-email">Dinheiro</label>
+    
+    
+                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone"
+                            id="radio-telefone">Cartão</label>
+    
+    
+                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp"
+                            checked>Pix</label>
+                </fieldset>
+                <div><a href="https://web.whatsapp.com/send?phone=5511970140850" target="_blank"><input type="submit" value="Enviar Pedido" class="enviar"></a>
+                    
+                </div>
+                
+            </form>    
+        </div>
+    <!--fim do Formulario -->
+        
+    </main>
+
+    <a class="whatsapp-link" href="https://web.whatsapp.com/send?phone=5511970140850" target="_blank">
+		<i class="fa fa-whatsapp"></i>
+	</a>
+
+    <footer> <div class="contato"> 
+        <ul>
+               
+            <li>
+           <a href="https://wa.me/qr/Z2DVFLCMBOD5C1">  <img src="img/whats.svg" alt="" width="5%"> </a>   - (35) 99219-6614  
+               
+            </li>
+            <li>
+                <a href= "https://goo.gl/maps/Lx2ANeDJvzPuBW8x8"> <img src="img/location-dot-solid.svg" alt="localização" width="5%" ></a>Jardim Contry Club. Poços De Caldas, Minas Gerais, Brasil. 
+               
+            </li>
+           
+            <li>
+               <a href= "mailto:caiquesouzaresponsa@hotmail.com" >   <img src="./img/envelope.svg" alt="email" width="5%">
+           </a > caiquesouzaresponsa@hotmail.com
+            </li>
+           
+        <li>
+            <a href="https://www.instagram.com/caiquewebdesenvolvedor2925/"> <img src="img/instagram.svg" alt="Instagram" width="5%">
+          </a> - Instagram 
+            
+        </li>
+        <li>
+       <a href="http://www.youtube.com/channel/UCdPw1gpJyjmLExOT_bFSaYw">    <img src="img/yotube.svg" alt="yotube" width="5%">
+     </a>   - Yotube     
+        </li>
+        
+    </div>
+        <p class="copyright">&copy;HOTEL NACIONAL - 2022 | Designed by <b>caiqueDev</b></p>
+        <br>  
+        <img src="img/logo1.png" alt="" width="7%">
+    </footer>
+</div>
+<script src="./AUMENTAR IMG/galeria.js"></script>
+<script src="menu.js"></script>
+<script>  /* cheking */
+    var dateControl = document.querySelector('input[type="date"]');
+   dateControl.value = '2022-07-05';
+</script>
+</body>
+
+</html>
