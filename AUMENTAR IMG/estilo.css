@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.card_img{
+    
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin: 25px;
+}
+.small_img{
+
+height: 100%;
+cursor: pointer;
+transition: all linear 0.4s;
+}
+
+.small_img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+    
+}
+
+.row{
+  
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ 
+}
+
+#modal_img{
+    width: 45vw;
+   
+   
+    transform: scale(0);
+    transition: all linear .3s;
+}
+
+.modal_active #modal_img{
+    transform: scale(1);
+    margin-top: 100px;
+}
+.modal{
+  
+    padding-left: 70px;
+    width: 80vw;
+    height: 1vh;
+    
+    background-color: rgb(0, 0, 0, .7);
+    position: relative;
+    visibility: hidden;
+    z-index: 1;
+    opacity: 0;
+    transition: visibility 0.8s linear, opacity 0.5s linear;
+}
+
+.modal_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#bt_close{
+color: white;
+background-color: rgb(63, 58, 58);
+position: fixed;
+top: 250px;
+right: 70px;
+padding: 15px 10px;
+width: 50px;
+height: 50px;
+position: fixed;
+font-size: 65px;
+border: solid 1px #fff;
+transition: all ease-out .4s;
+cursor: pointer;
+}
+#bt_close:hover{
+    background-color: #f00;
+}
+
+
+.modal_active{
+
+    visibility: visible; 
+    opacity: 4;
+    }
+
+
+    @media (max-width: 600px) {
+
+
+    .modal{
+  
+        width: 50vw;
+        height: 50vh;
+        background-color: rgba(182, 31, 31, 0.7);
+        position: absolute;
+        visibility: hidden;
+        z-index: 1;
+        opacity: 0;
+        transition: visibility 0.8s linear, opacity 0.5s linear;
+    }
+    #bt_close{
+        visibility: hidden;
+        left: -200px;
+    }
+    
+
+}
