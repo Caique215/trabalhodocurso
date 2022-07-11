@@ -22,6 +22,14 @@ body {
 .tho label{
     font-size: 12px;
 }
+.paragrafo{
+    padding: 0 30px; /* alinhas texto borda esquerda e direita*/
+    
+    text-indent: 30pt; /*começo do paragrado*/
+}
+.paragrafo{
+    text-align: justify; /* alinhar texto espaços*/
+}
 
 @font-face {
     font-family:'Hotel' ;
