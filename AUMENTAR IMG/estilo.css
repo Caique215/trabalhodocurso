@@ -32,11 +32,13 @@ transition: all linear 0.4s;
 }
 
 #modal_img{
-    width: 45vw;
-   
-   
+    width: 85vw; /* diminuir para 65 */
+    height: 1200px; /* tirar talves */
     transform: scale(0);
     transition: all linear .3s;
+    
+    
+    
 }
 
 .modal_active #modal_img{
