@@ -10,7 +10,7 @@ body {
 }
 
 .conteudo{
-   width: 100%;
+   width: 100px;
 }
 .tho{
     width: 160px;
@@ -22,6 +22,7 @@ body {
 .tho label{
     font-size: 12px;
 }
+
 .paragrafo{
     padding: 0 30px; /* alinhas texto borda esquerda e direita*/
     
@@ -162,7 +163,7 @@ button {
 
 /* MENU JAVASCRIPT LADO DIREITO FIM  */
 
-        @media (max-width: 1220px) {
+        @media (max-width: 1366px) {
             
             /* BANNER IMG FOTO EM BAIXO DO ISLADE */
             #banner img{
@@ -226,7 +227,7 @@ button {
 
 
       
-        @media (max-width: 1180px) {
+        @media (max-width: 1366px) {
             
 
 /*INICIO Menu JAVASCRIPT */
@@ -426,7 +427,7 @@ nav img {
            
         }
 
-        @media (max-width: 1220px) {
+        @media (max-width: 1366px) {
 
             #menu{
                 display: flex;
@@ -476,7 +477,7 @@ nav img {
             }
         }
 
-        @media (max-width: 1040px) {
+        @media (max-width: 1366px) {
            
              /*  .gallery{
                  margin-top: -10px;
@@ -541,7 +542,7 @@ nav img {
        
 
 
-        @media (max-width: 1220px){
+        @media (max-width: 1366px){
             .localizacao{
                 display: flex;
                 flex-direction: column;
@@ -613,7 +614,7 @@ nav img {
         }
 
 
-        @media (max-width: 900px) {
+        @media (max-width: px) {
 
              .gallery{
                 margin-top: 10px;
@@ -1366,3 +1367,19 @@ footer{
     font-size: 10px;
     color: #CCC;
 }
+
+
+/* FORÇANDO O CÓDIGO COM O IMPORTANT PARA QUE ESSA CONFIGURAÇÃO PREVALEÇA SEM SOBREPOSIÇÃO - PRIORIDADE*/
+@media (max-width:992px){
+    .img-pag-int {
+      margin: 10px 0 0 !important;
+      padding: 0 !important;
+    }}
+    
+    @media (max-width:992px){
+    .text-pag-int {
+      padding: 15px 15px 15px 30px !important;
+    }}
+    
+
+    
