@@ -8,4 +8,4 @@ function abrirMenu() {
         const botoesMenu = document.getElementById('botoesMenu');
 
         botoesMenu.className = botoesMenu.className.includes('responsivo') ? '' : 'responsivo'
-}
+ }
