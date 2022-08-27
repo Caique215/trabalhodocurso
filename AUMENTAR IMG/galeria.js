@@ -16,9 +16,3 @@ for(let i =0; i<imagens.length;i++){
     });
     
 }
-
-
-
-btClose.addEventListener('click', function(){
-    modal.classList.toggle('modal_active');
-});
