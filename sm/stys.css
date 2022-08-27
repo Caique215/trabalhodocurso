@@ -1,0 +1,160 @@
+body{
+    background-color: #eeeeee;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+
+.foto22>img{
+    width: 400px;
+    height: 250px;
+    position: relative;
+   left: 350px;
+   top: -20px;
+   border:solid #eee 3px;
+ 
+ }
+
+h1{
+
+    font-family: 'Archivo Narrow', sans-serif;
+     text-align: center;
+     color: #6a6f75;
+    
+ }
+
+ .paragrafo{
+    width: 43%;
+	float:right;
+  
+ }
+
+
+
+.paragrafo{
+	float:right;
+	font-family: 'Archivo Narrow', sans-serif;
+	padding: 0px 30px;
+	color: #3e454d;
+	padding-top: 5px;
+    padding-left: 330px;
+    
+}
+.paragrafo{
+  
+    float: left;
+    text-align: justify;
+    
+    
+}
+
+
+@media (max-width: 900px) {
+
+
+
+
+
+
+
+.foto22>img{
+    width: 300px;
+    height: 150px;
+    position: relative;
+   left: 140px;
+   top: -10px;
+   border:solid #eee 3px;
+ 
+ }
+
+h1{
+
+    font-family: 'Archivo Narrow', sans-serif;
+     text-align: center;
+     color: #6a6f75;
+  padding-left: 100px;
+ }
+
+ .paragrafo{
+    width: 43%;
+	float:right;
+  
+ }
+
+
+
+.paragrafo{
+	float:right;
+	font-family: 'Archivo Narrow', sans-serif;
+	padding: 0px 30px;
+	color: #3e454d;
+	padding-top: 18px;
+    padding-left: 200px;
+    
+}
+.paragrafo{
+  
+    float: left;
+    text-align: justify;
+    
+    
+}
+}
+
+
+
+
+
+
+@media (max-width: 420px) {
+
+
+
+
+
+
+
+    .foto22>img{
+        width: 200px;
+        height: 150px;
+        position: relative;
+       left: 140px;
+       top: -10px;
+       border:solid #eee 3px;
+     
+     }
+    
+    h1{
+    
+        font-family: 'Archivo Narrow', sans-serif;
+         text-align: center;
+         color: #6a6f75;
+         font-size: 20px;
+       
+     }
+    
+     .paragrafo{
+        width: 43%;
+        float:right;
+      
+     }
+    
+    
+    
+    .paragrafo{
+        float:right;
+        font-family: 'Archivo Narrow', sans-serif;
+        padding: 0px 30px;
+        color: #3e454d;
+        padding-top: 14px;
+        padding-left: 160px;
+        
+    }
+    .paragrafo{
+      
+        float: left;
+        text-align: justify;
+        
+        
+    }
+    }
